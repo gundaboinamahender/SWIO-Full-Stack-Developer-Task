@@ -1,0 +1,235 @@
+/* src/App.css */
+.App-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+}
+.App-header {
+    text-align: center;
+    max-width: 1050px; 
+    margin: 0 auto;
+  }
+  
+  .App-header h1 {
+    font-size: 95px;
+    font-weight: bold; 
+  }
+  .number {
+    color: rgb(0, 0, 0); 
+    font-weight: 200;
+  }
+  .App-header gradient-text {
+    background: linear-gradient(to top, #000000, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+  }
+  
+  .App-header h2 {
+    color: black;
+    font-size: 48px;
+    font-weight: bold; /* Adjust the size as needed */
+  }
+  
+  .App-header h4 {
+    font-size: 25px;
+    font-weight:400;
+    padding-top: 10px;
+    max-width: 850px; 
+    margin: 0 auto;/* Adjust the size as needed */
+  }
+  
+  
+  .button-container {
+    display: flex;
+  }
+  .mac {
+    margin-left: 300px;
+    margin-top: 55px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background-color: black;
+    color: white;
+    border-radius: 13px;
+    padding: 9px 17px; 
+    transition: background-color 0.1s;
+  
+  }
+  
+  .mac .icon {
+    margin-right: 10px;
+  }
+  
+  .mac .text {
+    font-size: larger;
+    font-weight: 500;
+  }
+  
+  .mac:hover {
+    background-color: #333;
+    
+  }
+  
+  .buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 248, 248);
+    font-size: large;
+    color: rgb(0, 0, 0);
+    font-weight: 550;
+    border-radius: 10px;
+    padding: 9px 17px;
+    margin-left: 33px;
+    margin-top: 55px;
+    transition: background-color 0.1s;
+  }
+  
+  .buy .price {
+    font-size: small;
+    background-color: #000000;
+    color: white;
+    border-radius: 15px;
+    padding: 6px;
+    margin-left: 6px;
+  }
+  
+  .buy:hover {
+    background-color: #ffffff;
+    
+  }
+  
+  .info-text {
+    font-weight: 100;
+    margin-top: 20px;
+    font-size: 15px;
+    max-width: 239px;
+    margin: 25px auto 0 400px;
+    text-align: center;
+  }
+  
+  .info{
+    margin-top: 60px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+  }
+  
+  .whatsnew{
+    border: 1px solid;
+    border-color: #f2f2f2;
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #f7f7f7;
+  }
+  
+  .bold{
+    font-weight: 500;
+  }
+  
+  .info :hover{
+  background-color: white;  
+  }
+  
+  .new{
+    margin-top: 115px;
+    margin-right: 5px;
+    font-size: small;
+    font-weight: bold;
+    color: rgba(0, 128, 255, 0.788);
+  }
+  .two{
+    color: white;
+    border: 1px solid rgba(0, 128, 255, 0.788);
+    border-radius: 9px;
+    background-color: rgba(0, 128, 255, 0.788);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 3px;
+  }
+  
+  .themes{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size:48px;
+  }
+  .theme{
+    margin-top: 20px;
+    font-size:24px;
+  }
+  .image-container {
+    text-align: center;
+    border: 1px solid #ffffff; 
+    background-color: #ffffff; 
+    margin-top: 60px;
+    
+}
+
+.image-container img {
+    max-width: 1200px; 
+    height: auto; 
+}
+
+.image-container1 {
+    text-align: center;
+    border: 1px solid #ffffff; 
+    background-color: #ffffff; 
+    margin-top: 60px;
+    
+}
+
+.image-container1 img {
+    max-width: 1200px; 
+    height: auto; 
+}
+.custom{
+    margin-top: 100px;
+    margin-right: 5px;
+    font-size: small;
+    font-weight: bold;
+    color: rgba(67, 57, 207, 0.788);
+}
+.Theme{
+    margin-top: 20px;
+    font-size:24px;
+    width: 80%;
+  }
+  .app-icon-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 40px;
+    justify-content: center; /* Aligns icons in the center */
+  }
+  .app-icon5 {
+    width: 130px; /* Adjust width as needed */
+    height: 130px; 
+  }
+  .app-icon4 {
+    width: 125px; /* Adjust width as needed */
+    height: 125px; /* Adjust height as needed */
+  }
+  .app-icon3 {
+    width: 120px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+  }
+  .app-icon2 {
+    width: 115px; /* Adjust width as needed */
+    height: 115px; /* Adjust height as needed */
+  }
+  .app-icon1 {
+    width: 110px; /* Adjust width as needed */
+    height: 110px; /* Adjust height as needed */
+  }
+  .custom1{
+    color: orangered;
+    margin-top: 100px;
+    margin-right: 5px;
+    font-size: small;
+    font-weight: bold;
+  }
